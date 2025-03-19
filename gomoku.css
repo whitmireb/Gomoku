@@ -1,0 +1,31 @@
+rect#GomokuBackground {
+    fill: #D2B48C;
+    stroke-width: 4;
+    stroke: #000000;
+}
+
+rect#PieRuleButton {
+    fill: #808000;
+    stroke-width: 2;
+    stroke: #000000;
+}
+
+circle.gomokuLine {
+    fill: black;
+}
+
+circle.gomokuDot {
+    fill: black;
+}
+
+circle.gomokuFakePiece {
+    opacity: 0;
+}
+
+circle.gomokuBlackPiece {
+    fill: black;
+}
+
+circle.gomokuWhitePiece {
+    fill: white;
+}

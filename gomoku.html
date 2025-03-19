@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gomoku</title>
+    <link rel="stylesheet" type="text/css" href="cgtStyle.css">
+    <link rel="stylesheet" type="text/css" href="gomoku.css">
+    <script src="prototype.js" type="text/javascript"></script>
+    <script src="paithanLibraries2013.js" type="text/javascript"></script>
+    <script src="combinatorialGames.js" type="text/javascript"></script>
+    <script src="gomoku.js" type="text/javascript"></script>
+    <!--JS for Game Start-->
+    <script>
+        var rulesText = "Cheese Burger.";
+
+        function newGame() {
+            newGomokuGame();
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1>Gomoku!</h1>
+    <!-- <h2>Programmed by Brendan Whitmire</h2> -->
+    <h2 id="messageBox">Choose your Game</h2>
+    <div id="controlsAndBoard">
+        <div id="gameControls">
+            <div class="gameOption centered">
+                <div class="optionTitle">Rules</div>
+                <p id="rules"></p>
+                <button id="rulesButton">Show</button>
+            </div>
+            <form id="gameOptions" accept-charset="utf-8">
+                <div></div>
+            </form>
+
+            <!--JS for Game Options and Rules Button-->
+            <script>
+                var gameOptionsForm = createBasicGridGameOptionsForGomoku(9, 19, 15);
+                $('gameOptions').appendChild(gameOptionsForm);
+                $('rulesButton').onclick = showRules;
+                $("starter").style.width = ($("gameControls").clientWidth) + "px";
+            </script>
+        </div>
+        <div class="gameBoard" id="MainGameBoard"></div>
+    </div>
+
+    <p style="clear:both; padding: 5px;">Check out <a href="https://kyleburke.info/DB/combGames/">other combinatorial
+            games</a>.</p>
+
+</body>
+
+</html>
