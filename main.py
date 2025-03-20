@@ -21,11 +21,11 @@ def eval_genomes(genomes, config):
         output1 = n1.activate(inp)
         output2 = n2.activate(inp)
         if output1[0] > output2[0]:
-            genome1.fitness += 2*output1[0]
-            genome2.fitness += output2[0]/2
+            genome1.fitness += output1[0]**2
+            genome2.fitness += output2[0]
         elif output2[0] > output1[0]:
-            genome1.fitness += output1[0]/2
-            genome2.fitness += 2*output2[0]
+            genome1.fitness += output1[0]
+            genome2.fitness += output2[0]**2
         else:
             genome1.fitness += 0
             genome2.fitness += 0
