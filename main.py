@@ -7,6 +7,8 @@ import neat
 # game = Game(5)
 # result = game.move(x, y)
 
+# I like cheese
+
 def eval_genomes(genomes, config):
     for i in range(1, len(genomes), 2):
         genome_id1, genome1 = genomes[i]
