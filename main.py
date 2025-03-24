@@ -9,7 +9,13 @@ import neat
 
 # I like cheese
 
+min_board_size = 9
+max_board_size = 19
+
 def eval_genomes(genomes, config):
+    if len(genomes) % 2 == 1:
+        genome_id, genome = genomes[-1]
+        genome.fitness = 0
     for i in range(1, len(genomes), 2):
         genome_id1, genome1 = genomes[i]
         genome_id2, genome2 = genomes[i-1]
@@ -17,18 +23,37 @@ def eval_genomes(genomes, config):
         n2 = neat.nn.FeedForwardNetwork.create(genome2, config)
         genome1.fitness = genome1.fitness or 0
         genome2.fitness = genome2.fitness or 0
-        inp = [random.randint(1, 10) for _ in range(361)]
-        output1 = n1.activate(inp)
-        output2 = n2.activate(inp)
-        if output1[0] > output2[0]:
-            genome1.fitness += output1[0]**2
-            genome2.fitness += output2[0]
-        elif output2[0] > output1[0]:
-            genome1.fitness += output1[0]
-            genome2.fitness += output2[0]**2
-        else:
-            genome1.fitness += 0
-            genome2.fitness += 0
+        board_size = random.randint(min_board_size, max_board_size)
+        game = Game(board_size)
+        turn = 0
+        while True:
+            x1, y1 = n1.activate(game.board)
+            res = game.move(int(x1), int(y1))
+            if res > -1:
+                # player 1 ended the game
+                genome1.fitness = 1000 - (1000 - (res*200) + turn)
+                game.current_player = 2
+                res_2 = game.highestInRow()
+                if res == 5:
+                    genome2.fitness = 1000 - (1000 - (res_2*200) + turn + 150)
+                else:
+                    genome2.fitness = 1000 - (1000 - (res_2*200) + turn - 150)
+                break
+
+            x2, y2 = n2.activate(game.invertBoard())
+            res = game.move(int(x2), int(y2))
+            if res > -1:
+                # player 2 ended the game
+                genome2.fitness = 1000 - (1000 - (res*200) + turn)
+                game.current_player = 1
+                res_2 = game.highestInRow()
+                if res == 5:
+                    genome1.fitness = 1000 - (1000 - (res_2*200) + turn + 150)
+                else:
+                    genome1.fitness = 1000 - (1000 - (res_2*200) + turn - 150)
+                break
+            turn += 1
+
 
 def run(config_file):
     # Load configuration.
@@ -37,6 +62,7 @@ def run(config_file):
                          config_file)
 
     # Create the population, which is the top-level object for a NEAT run.
+    print("Fitness criterion:", config.fitness_criterion)
     p = neat.Population(config)
 
     # Add a stdout reporter to show progress in the terminal.
