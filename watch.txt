@@ -1,0 +1,418 @@
+player 0 and player 1 are fighting!
+turn 0, player 0: result: 0, x: 18, y: 18
+player 2 and player 3 are fighting!
+turn 0, player 2: result: 0, x: 17, y: 17
+player 4 and player 5 are fighting!
+turn 0, player 4: result: 0, x: 0, y: 18
+player 6 and player 7 are fighting!
+turn 0, player 6: result: -1, x: 1, y: 17
+turn 0, player 7: result: -1, x: 17, y: 18
+turn 1, player 6: result: -1, x: 4, y: 17
+turn 1, player 7: result: -1, x: 1, y: 18
+turn 2, player 6: result: -1, x: 2, y: 18
+turn 2, player 7: result: -1, x: 13, y: 18
+turn 3, player 6: result: 1, x: 2, y: 18
+player 8 and player 9 are fighting!
+turn 0, player 8: result: -1, x: 15, y: 2
+turn 0, player 9: result: -1, x: 13, y: 14
+turn 1, player 8: result: -1, x: 13, y: 2
+turn 1, player 9: result: -1, x: 10, y: 4
+turn 2, player 8: result: -1, x: 16, y: 2
+turn 2, player 9: result: -1, x: 11, y: 0
+turn 3, player 8: result: -1, x: 9, y: 2
+turn 3, player 9: result: 1, x: 17, y: 1
+player 10 and player 11 are fighting!
+turn 0, player 10: result: 0, x: 18, y: 18
+player 12 and player 13 are fighting!
+turn 0, player 12: result: 0, x: 0, y: 18
+player 14 and player 15 are fighting!
+turn 0, player 14: result: 0, x: 1, y: 18
+player 16 and player 17 are fighting!
+turn 0, player 16: result: 0, x: 18, y: 0
+player 18 and player 19 are fighting!
+turn 0, player 18: result: 0, x: 18, y: 0
+player 20 and player 21 are fighting!
+turn 0, player 20: result: 0, x: 18, y: 0
+player 22 and player 23 are fighting!
+turn 0, player 22: result: 0, x: 18, y: 18
+player 24 and player 25 are fighting!
+turn 0, player 24: result: -1, x: 15, y: 10
+turn 0, player 25: result: 0, x: 10, y: 18
+player 26 and player 27 are fighting!
+turn 0, player 26: result: 0, x: 16, y: 18
+player 28 and player 29 are fighting!
+turn 0, player 28: result: 0, x: 18, y: 14
+player 30 and player 31 are fighting!
+turn 0, player 30: result: -1, x: 7, y: 0
+turn 0, player 31: result: 0, x: 18, y: 0
+player 32 and player 33 are fighting!
+turn 0, player 32: result: 0, x: 7, y: 17
+player 34 and player 35 are fighting!
+turn 0, player 34: result: 0, x: 18, y: 1
+player 36 and player 37 are fighting!
+turn 0, player 36: result: 0, x: 1, y: 18
+player 38 and player 39 are fighting!
+turn 0, player 38: result: 0, x: 18, y: 4
+player 40 and player 41 are fighting!
+turn 0, player 40: result: 0, x: 0, y: 18
+player 42 and player 43 are fighting!
+turn 0, player 42: result: 0, x: 18, y: 18
+player 44 and player 45 are fighting!
+turn 0, player 44: result: 0, x: 18, y: 18
+player 46 and player 47 are fighting!
+turn 0, player 46: result: 0, x: 0, y: 18
+player 48 and player 49 are fighting!
+turn 0, player 48: result: 0, x: 18, y: 0
+player 50 and player 51 are fighting!
+turn 0, player 50: result: 0, x: 18, y: 0
+player 52 and player 53 are fighting!
+turn 0, player 52: result: -1, x: 11, y: 18
+turn 0, player 53: result: -1, x: 18, y: 18
+turn 1, player 52: result: -1, x: 10, y: 18
+turn 1, player 53: result: 1, x: 18, y: 18
+player 54 and player 55 are fighting!
+turn 0, player 54: result: 0, x: 18, y: 18
+player 56 and player 57 are fighting!
+turn 0, player 56: result: -1, x: 0, y: 18
+turn 0, player 57: result: -1, x: 18, y: 0
+turn 1, player 56: result: 1, x: 0, y: 18
+player 58 and player 59 are fighting!
+turn 0, player 58: result: 0, x: 18, y: 0
+player 60 and player 61 are fighting!
+turn 0, player 60: result: 0, x: 18, y: 0
+player 62 and player 63 are fighting!
+turn 0, player 62: result: 0, x: 18, y: 17
+player 64 and player 65 are fighting!
+turn 0, player 64: result: 0, x: 0, y: 18
+player 66 and player 67 are fighting!
+turn 0, player 66: result: 0, x: 18, y: 18
+player 68 and player 69 are fighting!
+turn 0, player 68: result: 0, x: 18, y: 0
+player 70 and player 71 are fighting!
+turn 0, player 70: result: 0, x: 18, y: 18
+player 72 and player 73 are fighting!
+turn 0, player 72: result: -1, x: 18, y: 0
+turn 0, player 73: result: 0, x: 18, y: 0
+player 74 and player 75 are fighting!
+turn 0, player 74: result: 0, x: 18, y: 0
+player 76 and player 77 are fighting!
+turn 0, player 76: result: -1, x: 0, y: 5
+turn 0, player 77: result: 0, x: 2, y: 18
+player 78 and player 79 are fighting!
+turn 0, player 78: result: 0, x: 18, y: 18
+player 80 and player 81 are fighting!
+turn 0, player 80: result: 0, x: 0, y: 18
+player 82 and player 83 are fighting!
+turn 0, player 82: result: 0, x: 18, y: 18
+player 84 and player 85 are fighting!
+turn 0, player 84: result: 0, x: 18, y: 0
+player 86 and player 87 are fighting!
+turn 0, player 86: result: 0, x: 18, y: 0
+player 88 and player 89 are fighting!
+turn 0, player 88: result: 0, x: 18, y: 18
+player 90 and player 91 are fighting!
+turn 0, player 90: result: -1, x: 11, y: 0
+turn 0, player 91: result: -1, x: 10, y: 0
+turn 1, player 90: result: -1, x: 9, y: 0
+turn 1, player 91: result: 1, x: 14, y: 0
+player 92 and player 93 are fighting!
+turn 0, player 92: result: 0, x: 18, y: 0
+player 94 and player 95 are fighting!
+turn 0, player 94: result: -1, x: 2, y: 0
+turn 0, player 95: result: -1, x: 0, y: 0
+turn 1, player 94: result: 1, x: 10, y: 16
+player 96 and player 97 are fighting!
+turn 0, player 96: result: -1, x: 1, y: 18
+turn 0, player 97: result: -1, x: 0, y: 16
+turn 1, player 96: result: -1, x: 3, y: 18
+turn 1, player 97: result: -1, x: 0, y: 15
+turn 2, player 96: result: 1, x: 1, y: 18
+player 98 and player 99 are fighting!
+turn 0, player 98: result: -1, x: 6, y: 14
+turn 0, player 99: result: 0, x: 18, y: 0
+player 100 and player 101 are fighting!
+turn 0, player 100: result: -1, x: 0, y: 0
+turn 0, player 101: result: -1, x: 5, y: 0
+turn 1, player 100: result: 1, x: 0, y: 0
+player 102 and player 103 are fighting!
+turn 0, player 102: result: 0, x: 18, y: 0
+player 104 and player 105 are fighting!
+turn 0, player 104: result: 0, x: 18, y: 0
+player 106 and player 107 are fighting!
+turn 0, player 106: result: -1, x: 15, y: 0
+turn 0, player 107: result: 0, x: 17, y: 18
+player 108 and player 109 are fighting!
+turn 0, player 108: result: 0, x: 18, y: 0
+player 110 and player 111 are fighting!
+turn 0, player 110: result: -1, x: 18, y: 0
+turn 0, player 111: result: -1, x: 14, y: 0
+turn 1, player 110: result: 1, x: 18, y: 0
+player 112 and player 113 are fighting!
+turn 0, player 112: result: 0, x: 18, y: 8
+player 114 and player 115 are fighting!
+turn 0, player 114: result: 0, x: 18, y: 0
+player 116 and player 117 are fighting!
+turn 0, player 116: result: 0, x: 18, y: 0
+player 118 and player 119 are fighting!
+turn 0, player 118: result: -1, x: 0, y: 1
+turn 0, player 119: result: 0, x: 1, y: 17
+player 120 and player 121 are fighting!
+turn 0, player 120: result: -1, x: 18, y: 0
+turn 0, player 121: result: -1, x: 0, y: 0
+turn 1, player 120: result: 1, x: 18, y: 0
+player 122 and player 123 are fighting!
+turn 0, player 122: result: 0, x: 18, y: 0
+player 124 and player 125 are fighting!
+turn 0, player 124: result: -1, x: 14, y: 15
+turn 0, player 125: result: 0, x: 0, y: 18
+player 126 and player 127 are fighting!
+turn 0, player 126: result: 0, x: 18, y: 0
+player 128 and player 129 are fighting!
+turn 0, player 128: result: 0, x: 18, y: 0
+player 130 and player 131 are fighting!
+turn 0, player 130: result: 0, x: 0, y: 17
+player 132 and player 133 are fighting!
+turn 0, player 132: result: 0, x: 18, y: 0
+player 134 and player 135 are fighting!
+turn 0, player 134: result: 0, x: 18, y: 15
+player 136 and player 137 are fighting!
+turn 0, player 136: result: -1, x: 0, y: 14
+turn 0, player 137: result: 0, x: 17, y: 2
+player 138 and player 139 are fighting!
+turn 0, player 138: result: 0, x: 6, y: 18
+player 140 and player 141 are fighting!
+turn 0, player 140: result: 0, x: 18, y: 9
+player 142 and player 143 are fighting!
+turn 0, player 142: result: 0, x: 18, y: 18
+player 144 and player 145 are fighting!
+turn 0, player 144: result: 0, x: 18, y: 0
+player 146 and player 147 are fighting!
+turn 0, player 146: result: 0, x: 0, y: 18
+player 148 and player 149 are fighting!
+turn 0, player 148: result: -1, x: 0, y: 0
+turn 0, player 149: result: 0, x: 0, y: 18
+player 150 and player 151 are fighting!
+turn 0, player 150: result: 0, x: 18, y: 0
+player 152 and player 153 are fighting!
+turn 0, player 152: result: -1, x: 18, y: 18
+turn 0, player 153: result: -1, x: 18, y: 0
+turn 1, player 152: result: 1, x: 18, y: 18
+player 154 and player 155 are fighting!
+turn 0, player 154: result: 0, x: 18, y: 0
+player 156 and player 157 are fighting!
+turn 0, player 156: result: 0, x: 0, y: 18
+player 158 and player 159 are fighting!
+turn 0, player 158: result: 0, x: 0, y: 18
+player 160 and player 161 are fighting!
+turn 0, player 160: result: -1, x: 0, y: 0
+turn 0, player 161: result: -1, x: 6, y: 1
+turn 1, player 160: result: 1, x: 0, y: 0
+player 162 and player 163 are fighting!
+turn 0, player 162: result: -1, x: 0, y: 10
+turn 0, player 163: result: 0, x: 17, y: 5
+player 164 and player 165 are fighting!
+turn 0, player 164: result: -1, x: 18, y: 18
+turn 0, player 165: result: -1, x: 18, y: 3
+turn 1, player 164: result: -1, x: 15, y: 3
+turn 1, player 165: result: -1, x: 18, y: 7
+turn 2, player 164: result: -1, x: 18, y: 11
+turn 2, player 165: result: -1, x: 18, y: 10
+turn 3, player 164: result: 1, x: 18, y: 11
+player 166 and player 167 are fighting!
+turn 0, player 166: result: 0, x: 18, y: 0
+player 168 and player 169 are fighting!
+turn 0, player 168: result: -1, x: 0, y: 8
+turn 0, player 169: result: 0, x: 0, y: 18
+player 170 and player 171 are fighting!
+turn 0, player 170: result: 0, x: 0, y: 18
+player 172 and player 173 are fighting!
+turn 0, player 172: result: -1, x: 0, y: 0
+turn 0, player 173: result: 0, x: 0, y: 0
+player 174 and player 175 are fighting!
+turn 0, player 174: result: -1, x: 0, y: 0
+turn 0, player 175: result: 0, x: 0, y: 0
+player 176 and player 177 are fighting!
+turn 0, player 176: result: -1, x: 0, y: 9
+turn 0, player 177: result: 0, x: 18, y: 0
+player 178 and player 179 are fighting!
+turn 0, player 178: result: -1, x: 5, y: 2
+turn 0, player 179: result: 0, x: 18, y: 18
+player 180 and player 181 are fighting!
+turn 0, player 180: result: 0, x: 0, y: 18
+player 182 and player 183 are fighting!
+turn 0, player 182: result: 0, x: 0, y: 18
+player 184 and player 185 are fighting!
+turn 0, player 184: result: 0, x: 0, y: 18
+player 186 and player 187 are fighting!
+turn 0, player 186: result: 0, x: 0, y: 18
+player 188 and player 189 are fighting!
+turn 0, player 188: result: 0, x: 0, y: 18
+player 190 and player 191 are fighting!
+turn 0, player 190: result: 0, x: 0, y: 18
+player 192 and player 193 are fighting!
+turn 0, player 192: result: 0, x: 14, y: 0
+player 194 and player 195 are fighting!
+turn 0, player 194: result: 0, x: 18, y: 0
+player 196 and player 197 are fighting!
+turn 0, player 196: result: -1, x: 0, y: 0
+turn 0, player 197: result: 0, x: 0, y: 0
+player 198 and player 199 are fighting!
+turn 0, player 198: result: -1, x: 0, y: 2
+turn 0, player 199: result: 0, x: 0, y: 18
+player 200 and player 201 are fighting!
+turn 0, player 200: result: 0, x: 1, y: 18
+player 202 and player 203 are fighting!
+turn 0, player 202: result: 0, x: 0, y: 18
+player 204 and player 205 are fighting!
+turn 0, player 204: result: -1, x: 0, y: 4
+turn 0, player 205: result: -1, x: 0, y: 0
+turn 1, player 204: result: 1, x: 0, y: 0
+player 206 and player 207 are fighting!
+turn 0, player 206: result: -1, x: 0, y: 3
+turn 0, player 207: result: -1, x: 0, y: 2
+turn 1, player 206: result: 1, x: 0, y: 14
+player 208 and player 209 are fighting!
+turn 0, player 208: result: 0, x: 0, y: 16
+player 210 and player 211 are fighting!
+turn 0, player 210: result: -1, x: 0, y: 0
+turn 0, player 211: result: 0, x: 0, y: 0
+player 212 and player 213 are fighting!
+turn 0, player 212: result: -1, x: 0, y: 4
+turn 0, player 213: result: -1, x: 0, y: 2
+turn 1, player 212: result: 1, x: 0, y: 4
+player 214 and player 215 are fighting!
+turn 0, player 214: result: 0, x: 0, y: 18
+player 216 and player 217 are fighting!
+turn 0, player 216: result: -1, x: 17, y: 0
+turn 0, player 217: result: -1, x: 14, y: 3
+turn 1, player 216: result: -1, x: 12, y: 0
+turn 1, player 217: result: -1, x: 17, y: 9
+turn 2, player 216: result: -1, x: 11, y: 0
+turn 2, player 217: result: -1, x: 13, y: 14
+turn 3, player 216: result: -1, x: 14, y: 0
+turn 3, player 217: result: -1, x: 13, y: 13
+turn 4, player 216: result: 2, x: 14, y: 0
+player 218 and player 219 are fighting!
+turn 0, player 218: result: -1, x: 18, y: 13
+turn 0, player 219: result: -1, x: 18, y: 0
+turn 1, player 218: result: -1, x: 18, y: 8
+turn 1, player 219: result: 1, x: 18, y: 0
+player 220 and player 221 are fighting!
+turn 0, player 220: result: -1, x: 0, y: 0
+turn 0, player 221: result: 0, x: 18, y: 0
+player 222 and player 223 are fighting!
+turn 0, player 222: result: -1, x: 0, y: 1
+turn 0, player 223: result: -1, x: 0, y: 3
+turn 1, player 222: result: 1, x: 0, y: 1
+player 224 and player 225 are fighting!
+turn 0, player 224: result: -1, x: 0, y: 0
+turn 0, player 225: result: -1, x: 0, y: 2
+turn 1, player 224: result: 1, x: 0, y: 0
+player 226 and player 227 are fighting!
+turn 0, player 226: result: 0, x: 17, y: 0
+player 228 and player 229 are fighting!
+turn 0, player 228: result: 0, x: 18, y: 0
+player 230 and player 231 are fighting!
+turn 0, player 230: result: 0, x: 18, y: 15
+player 232 and player 233 are fighting!
+turn 0, player 232: result: -1, x: 3, y: 0
+turn 0, player 233: result: 0, x: 18, y: 0
+player 234 and player 235 are fighting!
+turn 0, player 234: result: 0, x: 10, y: 0
+player 236 and player 237 are fighting!
+turn 0, player 236: result: -1, x: 0, y: 0
+turn 0, player 237: result: 0, x: 0, y: 18
+player 238 and player 239 are fighting!
+turn 0, player 238: result: -1, x: 0, y: 18
+turn 0, player 239: result: 0, x: 0, y: 18
+player 240 and player 241 are fighting!
+turn 0, player 240: result: -1, x: 1, y: 0
+turn 0, player 241: result: -1, x: 0, y: 0
+turn 1, player 240: result: 1, x: 0, y: 0
+player 242 and player 243 are fighting!
+turn 0, player 242: result: 0, x: 17, y: 0
+player 244 and player 245 are fighting!
+turn 0, player 244: result: 0, x: 18, y: 0
+player 246 and player 247 are fighting!
+turn 0, player 246: result: -1, x: 0, y: 0
+turn 0, player 247: result: -1, x: 6, y: 0
+turn 1, player 246: result: 1, x: 0, y: 0
+player 248 and player 249 are fighting!
+turn 0, player 248: result: 0, x: 17, y: 0
+player 250 and player 251 are fighting!
+turn 0, player 250: result: -1, x: 0, y: 14
+turn 0, player 251: result: 0, x: 18, y: 17
+player 252 and player 253 are fighting!
+turn 0, player 252: result: -1, x: 0, y: 10
+turn 0, player 253: result: 0, x: 0, y: 18
+player 254 and player 255 are fighting!
+turn 0, player 254: result: 0, x: 0, y: 18
+player 256 and player 257 are fighting!
+turn 0, player 256: result: 0, x: 0, y: 18
+player 258 and player 259 are fighting!
+turn 0, player 258: result: -1, x: 0, y: 9
+turn 0, player 259: result: -1, x: 0, y: 0
+turn 1, player 258: result: 1, x: 0, y: 0
+player 260 and player 261 are fighting!
+turn 0, player 260: result: -1, x: 0, y: 14
+turn 0, player 261: result: -1, x: 0, y: 2
+turn 1, player 260: result: 1, x: 0, y: 14
+player 262 and player 263 are fighting!
+turn 0, player 262: result: -1, x: 0, y: 4
+turn 0, player 263: result: -1, x: 0, y: 0
+turn 1, player 262: result: 1, x: 0, y: 0
+player 264 and player 265 are fighting!
+turn 0, player 264: result: -1, x: 5, y: 0
+turn 0, player 265: result: 0, x: 18, y: 0
+player 266 and player 267 are fighting!
+turn 0, player 266: result: 0, x: 18, y: 0
+player 268 and player 269 are fighting!
+turn 0, player 268: result: -1, x: 0, y: 0
+turn 0, player 269: result: 0, x: 0, y: 0
+player 270 and player 271 are fighting!
+turn 0, player 270: result: -1, x: 0, y: 9
+turn 0, player 271: result: -1, x: 15, y: 0
+turn 1, player 270: result: -1, x: 0, y: 0
+turn 1, player 271: result: -1, x: 5, y: 0
+turn 2, player 270: result: 1, x: 0, y: 0
+player 272 and player 273 are fighting!
+turn 0, player 272: result: -1, x: 0, y: 0
+turn 0, player 273: result: -1, x: 1, y: 13
+turn 1, player 272: result: 1, x: 0, y: 0
+player 274 and player 275 are fighting!
+turn 0, player 274: result: -1, x: 0, y: 1
+turn 0, player 275: result: 0, x: 18, y: 18
+player 276 and player 277 are fighting!
+turn 0, player 276: result: -1, x: 0, y: 0
+turn 0, player 277: result: 0, x: 0, y: 0
+player 278 and player 279 are fighting!
+turn 0, player 278: result: -1, x: 0, y: 0
+turn 0, player 279: result: 0, x: 18, y: 0
+player 280 and player 281 are fighting!
+turn 0, player 280: result: -1, x: 0, y: 2
+turn 0, player 281: result: -1, x: 0, y: 0
+turn 1, player 280: result: -1, x: 0, y: 1
+turn 1, player 281: result: 1, x: 0, y: 0
+player 282 and player 283 are fighting!
+turn 0, player 282: result: -1, x: 0, y: 0
+turn 0, player 283: result: 0, x: 0, y: 0
+player 284 and player 285 are fighting!
+turn 0, player 284: result: 0, x: 0, y: 12
+player 286 and player 287 are fighting!
+turn 0, player 286: result: 0, x: 16, y: 0
+player 288 and player 289 are fighting!
+turn 0, player 288: result: -1, x: 0, y: 1
+turn 0, player 289: result: 0, x: 0, y: 16
+player 290 and player 291 are fighting!
+turn 0, player 290: result: 0, x: 18, y: 18
+player 292 and player 293 are fighting!
+turn 0, player 292: result: 0, x: 18, y: 9
+player 294 and player 295 are fighting!
+turn 0, player 294: result: -1, x: 0, y: 7
+turn 0, player 295: result: -1, x: 0, y: 4
+turn 1, player 294: result: 1, x: 0, y: 16
+player 296 and player 297 are fighting!
+turn 0, player 296: result: 0, x: 0, y: 18
+player 298 and player 299 are fighting!
+turn 0, player 298: result: -1, x: 0, y: 0
+turn 0, player 299: result: 0, x: 0, y: 0

@@ -1,2 +1,4 @@
 # Ignore neat-checkpoint files
 neat-checkpoint*
+checkpoints/
+govenv/
