@@ -2,12 +2,13 @@ from gomoku import Game
 import random
 import os
 import neat
+import argparse
 # import visualize
 
-# game = Game(5)
-# result = game.move(x, y)
-
-# I like cheese
+parser = argparse.ArgumentParser(description="Run NEAT for Gomoku.")
+parser.add_argument("--config", type=str, help="Path to NEAT config file", default="config")
+parser.add_argument("-ch", "--checkpoint", type=str, help="Optional path to a NEAT checkpoint file to continue training", default=None)
+args = parser.parse_args()
 
 min_board_size = 9
 max_board_size = 19
@@ -55,15 +56,20 @@ def eval_genomes(genomes, config):
             turn += 1
 
 
-def run(config_file):
+def run(config_file, checkpoint=None):
     # Load configuration.
     config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
                          neat.DefaultSpeciesSet, neat.DefaultStagnation,
                          config_file)
 
     # Create the population, which is the top-level object for a NEAT run.
-    print("Fitness criterion:", config.fitness_criterion)
-    p = neat.Population(config)
+    
+    if checkpoint and os.path.exists(checkpoint):
+        print(f"Loading checkpoint: {checkpoint}")
+        p = neat.Checkpointer.restore_checkpoint(checkpoint)
+    else:
+        # Create a new population
+        p = neat.Population(config)
 
     # Add a stdout reporter to show progress in the terminal.
     p.add_reporter(neat.StdOutReporter(True))
@@ -80,5 +86,5 @@ def run(config_file):
 
 if __name__ == '__main__':
     local_dir = os.path.dirname(__file__)
-    config_path = os.path.join(local_dir, 'config')
-    run(config_path)
+    config_path = os.path.join(local_dir, args.config)
+    run(config_path, args.checkpoint)
