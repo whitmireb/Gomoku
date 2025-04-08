@@ -17,6 +17,8 @@ max_board_size = 19
 
 def eval_genomes(genomes, config):
     # with open("watch.txt", "w") as f:
+    for genome in genomes:
+        genome.fitness = 0
     if len(genomes) % 2 == 1:
         genome_id, genome = genomes[-1]
         genome.fitness = 0
@@ -25,16 +27,16 @@ def eval_genomes(genomes, config):
         genome_id2, genome2 = genomes[i]
         n1 = neat.nn.FeedForwardNetwork.create(genome1, config)
         n2 = neat.nn.FeedForwardNetwork.create(genome2, config)
-        genome1.fitness = genome1.fitness or 0
-        genome2.fitness = genome2.fitness or 0
-        board_size = random.randint(min_board_size, max_board_size)
+        board_size = 19     #random.randint(min_board_size, max_board_size)
         game = Game(board_size)
         turn = 0
         # print(f"player {i-1} and player {i} are fighting!", file=f)
         while True:
             x1, y1 = n1.activate(game.board)
+            x1 = min(max(int(x1 * board_size), 0), board_size - 1)
+            y1 = min(max(int(y1 * board_size), 0), board_size - 1)
             # print(f"turn {turn}, player {i-1} input: {game.board}", file=f)
-            res = game.move(int(x1*19), int(y1*19))
+            res = game.move(x1, y1)
             # print(f"turn {turn}, player {i-1}: result: {res}, x: {int(x1*19)}, y: {int(y1*19)}", file=f)
             if res > -1:
                 # player 1 ended the game
@@ -48,8 +50,10 @@ def eval_genomes(genomes, config):
                 break
 
             x2, y2 = n2.activate(game.invertBoard())
+            x2 = min(max(int(x2 * board_size), 0), board_size - 1)
+            y2 = min(max(int(y2 * board_size), 0), board_size - 1)
             # print(f"turn {turn}, player {i} input: {game.invertBoard()}", file=f)
-            res = game.move(int(x2*19), int(y2*19))
+            res = game.move(x2, y2)
             # print(f"turn {turn}, player {i}: result: {res}, x: {int(x2*19)}, y: {int(y2*19)}", file=f)
             if res > -1:
                 # player 2 ended the game
@@ -66,8 +70,10 @@ def eval_genomes(genomes, config):
         game = Game(board_size)
         while True:
             x2, y2 = n2.activate(game.board)
+            x2 = min(max(int(x2 * board_size), 0), board_size - 1)
+            y2 = min(max(int(y2 * board_size), 0), board_size - 1)
             # print(f"turn {turn}, player {i} input: {game.board}", file=f)
-            res = game.move(int(x2*19), int(y2*19))
+            res = game.move(x2, y2)
             # print(f"turn {turn}, player {i}: result: {res}, x: {int(x2*19)}, y: {int(y2*19)}", file=f)
             if res > -1:
                 # player 1 ended the game
@@ -81,8 +87,10 @@ def eval_genomes(genomes, config):
                 break
 
             x1, y1 = n1.activate(game.invertBoard())
+            x1 = min(max(int(x1 * board_size), 0), board_size - 1)
+            y1 = min(max(int(y1 * board_size), 0), board_size - 1)
             # print(f"turn {turn}, player {i-1} input: {game.invertBoard()}", file=f)
-            res = game.move(int(x1*19), int(y1*19))
+            res = game.move(x1, y1)
             # print(f"turn {turn}, player {i-1}: result: {res}, x: {int(x1*19)}, y: {int(y1*19)}", file=f)
             if res > -1:
                 # player 2 ended the game
@@ -120,7 +128,7 @@ def run(config_file, checkpoint=None):
     p.add_reporter(checkpointer)
 
     # Run for up to 300 generations.
-    winner = p.run(eval_genomes, 300)
+    winner = p.run(eval_genomes, 10000)
 
     # Display the winning genome.
     print(f"We got a winner! with a fitness value of {winner.fitness}!")
