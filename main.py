@@ -148,7 +148,8 @@ def play(config_file, checkpoint):
     print(f"Loading checkpoint: {checkpoint}")
     p = neat.Checkpointer.restore_checkpoint(checkpoint)
 
-    best_genome = max(p.population.values(), key=lambda g: g.fitness)
+    valid_genomes = [g for g in p.population.values() if g.fitness is not None]
+    best_genome = max(valid_genomes, key=lambda g: g.fitness)
 
     print(f"The best player in this generation has a fitness of {best_genome.fitness}")
     print("It's ROBOT FIGHTIN' TIME!!!")
@@ -169,8 +170,10 @@ def play(config_file, checkpoint):
             
         print("AI's move")
         x, y = n1.activate(game.board)
-        res = game.move(int(x*19), int(y*19))
-        print(f"X: {int(x*19)}, Y: {int(y*19)}")
+        x = min(max(int(x * board_size), 0), board_size - 1)
+        y = min(max(int(y * board_size), 0), board_size - 1)
+        res = game.move(x, y)
+        print(f"X: {x}, Y: {y}")
         print(game)
         if res > -1:
             if res == 5:
